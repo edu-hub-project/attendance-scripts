@@ -8,11 +8,9 @@ import pdb
 from collections import defaultdict
 import numpy as np
 
-CSV_FILE = 'zoom-meetings-id_wise2122.csv'
+CSV_FILE = 'meetings_SoSe22.csv'
 if len(sys.argv) > 1:
     CSV_FILE = sys.argv[1]
-
-pdb.set_trace()
 
 print("********")
 print(f"reading participants from the the .csv file {CSV_FILE}.\nIf the file is named differently, change line 11!")
